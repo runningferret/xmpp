@@ -2634,6 +2634,13 @@ Art thou not Romeo, and a Montague?
             <td>application/nlsml+xml</td>
             <td>OPTIONAL</td>
           </tr>
+          <tr>
+            <td>speech-incomplete-timeout</td>
+            <td>Indicates the maximum period of silence (in milliseconds) which may be encountered before the recognizer finalizes a result.</td>
+            <td>Integer value from 0 to MAXTIMEOUT, where MAXTIMEOUT is implementation specific, or -1 to disable.</td>
+            <td>-1</td>
+            <td>OPTIONAL</td>
+          </tr>
         </table>
 
         <section5 topic='Grammar Element' anchor='def-component-input-input-grammar'>
