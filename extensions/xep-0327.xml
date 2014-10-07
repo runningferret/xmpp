@@ -3972,6 +3972,13 @@ Art thou not Romeo, and a Montague?
             </documentation>
           </annotation>
         </attribute>
+        <attribute name="speech-incomplete-timeout" type="core:timeoutType" use="optional" default="-1">
+          <annotation>
+            <documentation>
+              Indicates the maximum period of silence (in milliseconds) which may be encountered before the recognizer finalizes a result.
+            </documentation>
+          </annotation>
+        </attribute>
         <attribute name="sensitivity" type="core:fractionDecimalType" use="optional" default="0.5">
           <annotation>
             <documentation>
